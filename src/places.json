@@ -1,0 +1,94 @@
+{
+  "places": [
+    {
+      "id": "124121312",
+      "location": "Bucharest",
+      "name": "Entire apartment hosted by Urban",
+      "reviewStars": 4.05,
+      "placeType": "Entire place",
+      "guests": 1,
+      "images": "https://images.unsplash.com/photo-1610276099599-67d69ba55d1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": "124121313",
+      "location": "Sinaia",
+      "name": "Family and friends house",
+      "reviewStars": 5.0,
+      "placeType": "Private room",
+      "guests": 2,
+      "images": "https://images.unsplash.com/photo-1609347744425-175ecbd3cc0e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": "124121314",
+      "location": "Oslo",
+      "name": "Cozy house with scandinavian design",
+      "reviewStars": 4.5,
+      "placeType": "Shared room",
+      "guests": 4,
+      "images": "https://images.unsplash.com/photo-1600489000095-46da6f1c17b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+    },
+    {
+      "id": "124121315",
+      "location": "Helsinki",
+      "name": "Entire apartment hosted by Xe",
+      "reviewStars": 3.8,
+      "placeType": "Entire place",
+      "guests": 2,
+      "images": "https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80"
+    },
+    {
+      "id": "124121316",
+      "location": "Paris",
+      "name": "Entire apartment hosted by Tom",
+      "reviewStars": 4.8,
+      "placeType": "Private room",
+      "guests": 2,
+      "images": "https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=80"
+    },
+    {
+      "id": "124121317",
+      "location": "Enskede",
+      "name": "Bright Studio",
+      "reviewStars": 4.8,
+      "placeType": "Entire place",
+      "guests": 4,
+      "images": "https://images.unsplash.com/photo-1600494448850-6013c64ba722?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80"
+    },
+    {
+      "id": "124121318",
+      "location": "Praga",
+      "name": "Entire apartment hosted by Alina",
+      "reviewStars": 4.9,
+      "placeType": "Entire place",
+      "guests": 2,
+      "images": "https://images.unsplash.com/photo-1507086182422-97bd7ca2413b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80"
+    },
+    {
+      "id": "124121319",
+      "location": "Stockholm",
+      "name": "Peaceful and cozy room by Marius",
+      "reviewStars": 4.0,
+      "placeType": "Entire place",
+      "guests": 2,
+      "images": "https://images.unsplash.com/photo-1600210491305-7396500b5b31?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80"
+    },
+    {
+      "id": "124121320",
+      "location": "Dublin",
+      "name": "Cozy apartment - by Urban",
+      "reviewStars": 4.5,
+      "placeType": "Shared room",
+      "guests": 4,
+      "images": "https://images.unsplash.com/photo-1614598642118-7841d2d5bc18?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80"
+    },
+    {
+      "id": "124121321",
+      "location": "Istanbul",
+      "name": "Beautiful room hosted by Constantinople",
+      "reviewStars": 4.6,
+      "placeType": "Shared room",
+      "guests": 4,
+      "images": "https://images.unsplash.com/photo-1611599361713-17db15c39691?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    }
+  ]
+}
