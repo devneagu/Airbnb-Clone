@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Place = (props) => {
-  console.log(props);
   return (
     <div className="gridElement">
       <img src={`${props.imageSrc}`} />
@@ -10,8 +9,7 @@ export const Place = (props) => {
           <span className="city bg-clip-text text-transparent bg-gradient-to-r from-green-700 to-blue-500 ">{`${props.location}`}</span>
           <span className="placeType text-gray-400">{`${props.placeType}`}</span>
           <span className="guests text-cyan-600">
-            {" "}
-            Guests : {`${props.guests}`}
+            No. Guests : {`${props.guests}`}
           </span>
         </div>
         <div className="flex-3">
