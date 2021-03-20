@@ -61,34 +61,42 @@ const App = () => {
       </header>
       <div className={`searchContainerFilter ${searchActive}`}>
         <div className="container mx-auto">
-          <span className="searchTitle">Location</span>
-          <select id="cityFilter" className="appearance-none">
-            {cities.length === 0 ? (
-              <h1>No locations available.</h1>
-            ) : (
-              cities.map((city, index) => <option key={index}>{city}</option>)
-            )}
-          </select>
-          <div className="searchContainer" onClick={manipulateData}>
-            <div className="flex">
-              <div className="flex-2">
-                <span className="bg-red-500 h-7 w-7 text-white text-center font-extrabold flex items-center justify-center rounded-full">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="-14 -14 50 50"
-                    stroke="white"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="3"
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
-                  </svg>
-                </span>
+          <div class="flex">
+            <div class="flex-initial my-auto mr-10">
+              <span className="searchTitle">Location</span>
+              <select id="cityFilter" className="appearance-none">
+                {cities.length === 0 ? (
+                  <h1>No locations available.</h1>
+                ) : (
+                  cities.map((city, index) => (
+                    <option key={index}>{city}</option>
+                  ))
+                )}
+              </select>
+            </div>
+            <div class="flex-initial my-auto">
+              <div className="searchContainer" onClick={manipulateData}>
+                <div className="flex">
+                  <div className="flex-2">
+                    <span className="bg-red-500 h-7 w-7 text-white text-center font-extrabold flex items-center justify-center rounded-full">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-14 -14 50 50"
+                        stroke="white"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="3"
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="flex-1  m-auto ml-3 pr-5">Search</div>
+                </div>
               </div>
-              <div className="flex-1  m-auto mr-10">Search</div>
             </div>
           </div>
         </div>

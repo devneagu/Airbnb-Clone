@@ -100,3 +100,15 @@ header .searchContainer:hover {
 .searchTitle {
   margin-right: 10px;
 }
+
+.searchContainerFilter .searchContainer {
+  border: 1px solid rgb(239 68 68);
+  background: rgb(239 68 68);
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.searchContainerFilter select {
+  border: 1px solid gray;
+}
