@@ -61,8 +61,8 @@ const App = () => {
       </header>
       <div className={`searchContainerFilter ${searchActive}`}>
         <div className="container mx-auto">
-          <div class="flex">
-            <div class="flex-initial my-auto mr-10">
+          <div className="flex">
+            <div className="flex-initial my-auto mr-10">
               <span className="searchTitle">Location</span>
               <select id="cityFilter" className="appearance-none">
                 {cities.length === 0 ? (
@@ -74,7 +74,7 @@ const App = () => {
                 )}
               </select>
             </div>
-            <div class="flex-initial my-auto">
+            <div className="flex-initial my-auto">
               <div className="searchContainer" onClick={manipulateData}>
                 <div className="flex">
                   <div className="flex-2">
